@@ -17,7 +17,7 @@ def model_prediction(test_image, confidence_threshold=0.5):
         return None
     return max_index
 #Set Page config
-st.set_page_config(page_title="DaunDerita", page_icon="🌿")
+st.set_page_config(page_title="DaunSehat", page_icon="🌿")
 #Sidebar
 st.sidebar.title("Dashboard")
 st.sidebar.image("sidebar_logo.png", use_column_width=True)
@@ -32,7 +32,7 @@ if(app_mode=="Home"):
     image_path = "home_page.jpeg"
     st.image(image_path,use_column_width=True)
     st.markdown("""
-    Selamat datang di DaunDerita! 🌿🔍
+    Selamat datang di DaunSehat! 🌿🔍
     
     Misi kami adalah membantu mengidentifikasi penyakit tanaman secara efisien. Unggah gambar tanaman, dan sistem kami akan menganalisisnya untuk mendeteksi tanda-tanda penyakit. Bersama-sama, mari lindungi tanaman kita dan pastikan panen yang lebih sehat!
 
